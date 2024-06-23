@@ -62,8 +62,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <section>   
                     <img id="foto" src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Image.png" alt="foto de perfil">
                     <p id="nome1"> <?= $nome ?></p>
+                
                 <div id="bordinha"> </div>
-                    <h2 id="dados1">Dados pessoais</h2> 
+                    
+                <h2 id="dados1">Dados pessoais</h2> 
 
                     <p id="nascimento2"><strong>Nascimento:</strong> <?= $nascimento ?></p>
                     <p id="escolaridade2"><strong>Escolaridade:</strong> <?= $escolaridade ?></p>
@@ -75,16 +77,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p id="estado2"><strong>Estado:</strong> <?= $estado ?></p>
                     <p id="cidade2"><strong>Cidade:</strong> <?= $cidade ?></p>
                     <p id="cep2"><strong>CEP:</strong> <?= $cep ?></p>
-             <div id="bordinha2"> </div>
+             
+                <div id="bordinha2"> </div>
                 
-                    <h2 id="experiencia-profissionais3">Experiência Profissionais</h2>
+                <h2 id="experiencia-profissionais3">Experiência Profissionais</h2>
                     <p id="input-experiencia3"><?= $experiencia1 ?></p>
                     <p id="input-experiencia4"><?= $experiencia2 ?></p>
                     <p id="input-experiencia5"><?= $experiencia3 ?></p>
                     <p id="input-experiencia6"><?= $experiencia4 ?></p> 
                     <p class="novaexperiencias"><?= $exp ?></p>
                
-                    <h2 id="cursos2">Cursos e Qualificações</h2>
+                <h2 id="cursos2">Cursos e Qualificações</h2>
+                    
                     <p id="input-cursos3"><?= $curso1 ?></p>
                     <p id="input-cursos4"><?= $curso2 ?></p>
                     <p id="input-cursos5"><?= $curso3 ?></p>
@@ -98,6 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <p id="text" ><?= $objetivo ?></p>
 
                 <div id="bordinha4"> </div>
+                    
                     <h2 id="formacao-academica2">Formação Acadêmica</h2>
                     <p id="input-formacao3"><?= $formacao1 ?></p>
                     <p id="input-formacao4"><?= $formacao2 ?></p>
@@ -107,7 +112,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                  <button id="imprimir" onclick="imprimirPagina()">IMPRIMIR</button>
                
             </section>
-      
         </main>
 </body>
         <script>
