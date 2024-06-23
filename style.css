@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    height: 100vh;
+    display: flex;
+}
+
+#borda-esquerda {
+    width: 650px;
+    background-color: #4682B4;
+    height: 100vh;
+}
+
+#borda-conteudo {
+    width: 100%;
+}
+
+#perfil {
+    width: 150px;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+}
+
+#titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 39.5%;
+    top: 5%;
+    color: #4682B4;
+}
+
+#objetivo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 47%;
+    top: 15%;
+}
+
+#textarea-objetivo {
+    position: absolute;
+    left: 35%;
+    top: 21%;
+    width: 30%;
+    height: 10%;
+    border: 2px solid #4682B4;
+}
+
+#cursos {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 42%;
+    top: 34%;
+}
+
+#input-cursos1 {
+    position: absolute;
+    left: 37%;
+    top: 39%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-cursos2 {
+    position: absolute;
+    left: 37%;
+    top: 43%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-cursos3 {
+    position: absolute;
+    left: 37%;
+    top: 47%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-cursos4 {
+    position: absolute;
+    left: 37%;
+    top: 51%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#experiencia-profissionais {
+    position: absolute;
+    left: 41%;
+    top: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-experiencia1 {
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-experiencia2 {
+    position: absolute;
+    top: 74%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-experiencia3 {
+    position: absolute;
+    top: 78%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#input-experiencia4 {
+    position: absolute;
+    top: 82%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+#dados-pessoais {
+    position: absolute;
+    top: 24.5%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nome {
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: aliceblue;
+}
+
+#input-nome {
+    position: absolute;
+    top: 32%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#nascimento {
+    position: absolute;
+    top: 36%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+#input-nascimento {
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#escolaridade {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+#input-escolaridade {
+    position: absolute;
+    top: 40%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#sexo {
+    position: absolute;
+    top: 44%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: aliceblue;
+}
+
+#input-sexo {
+    position: absolute;
+    top: 44%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#email {
+    position: absolute;
+    top: 48%;
+    left: 3%;
+    color: aliceblue;
+}
+
+#input-email {
+    position: absolute;
+    top: 48%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#telefone {
+    position: absolute;
+    top: 52%;
+    left: 2%;
+    color: aliceblue;
+}
+
+#input-telefone {
+    position: absolute;
+    top: 52%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#telefone2 {
+    position: absolute;
+    top: 56%;
+    left: 1%;
+    color: aliceblue;
+}
+
+#input-telefone2 {
+    position: absolute;
+    top: 56%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#endereco {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+    color: aliceblue;
+}
+
+#input-endereco {
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#estado {
+    position: absolute;
+    top: 64%;
+    left: 2%;
+    color: aliceblue;
+}
+
+#input-estado {
+    position: absolute;
+    top: 64%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#cidade {
+    position: absolute;
+    top: 68%;
+    left: 2%;
+    color: aliceblue;
+}
+
+#input-cidade {
+    position: absolute;
+    top: 68%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#cep {
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    color: aliceblue;
+}
+
+#input-cep {
+    position: absolute;
+    top: 72%;
+    left: 9%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#formação-academica {
+    top: 78%;
+    left: 3%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-formação {
+    top: 82%;
+    left: 9%;
+    position: absolute;
+    font-size: 37px;
+    color: aliceblue;
+}
+
+#input-formacao1 {
+    position: absolute;
+    left: 9%;
+    top: 83%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#input-formacao2 {
+    position: absolute;
+    left: 9%;
+    top: 88%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#input-formacao3 {
+    position: absolute;
+    left: 9%;
+    top: 93%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#adicionarCampo {
+    position: absolute;
+    top: 89.5%;
+    left: 46%;
+    color: #4682B4;
+    background-color: black;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
+
+#adicionarCampo2 {
+    position: absolute;
+    top: 58.5%;
+    left: 46%;
+    color: #4682B4;
+    background-color: black;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
+
+#adicionar-imagem {
+    position: absolute;
+    top: 18.5%;
+    left: 3.3%;
+    background-color: #DCDCDC;
+    color: black;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#enviar {
+    position: absolute;
+    top: 90%;
+    left: 61%;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.input-novo2 {
+    position: absolute;
+    top: 54.5%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+.input-novo {
+    position: absolute;
+    top: 85.5%;
+    left: 37%;
+    width: 28%;
+    border: 2px solid #4682B4;
+    text-align: center;
+}
+
+
+/*RESPONSIVIDADE*/
+
+
+@media screen and (min-width: 768px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 20px;
+    }
+
+    #borda-esquerda,
+    #borda-conteudo {
+        width: 100%;
+        margin-bottom: 0;
+
+    }
+
+    #conteudo-dados-pessoais {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #conteudo-formação-academica,
+    #conteudo-principal-meio {
+        grid-column: 1 / -1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #container {
+        display: block;
+    }
+
+    #conteudo-dados-pessoais {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conteudo-dados-pessoais img {
+        margin-bottom: 20px;
+    }
+
+    #conteudo-dados-pessoais input,
+    #conteudo-dados-pessoais label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #conteudo-formação-academica,
+    #conteudo-principal-meio {
+        margin-top: 20px;
+    }
+}

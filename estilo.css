@@ -1,0 +1,330 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    /* Exemplo de largura máxima responsiva */
+    margin: 0 auto;
+    /* Centraliza o conteúdo horizontalmente */
+}
+
+
+
+#borda-direita {
+    border: #4682B4 2px solid;
+    background-color: #4682B4;
+    border-radius: 4rem;
+    left: 25%;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+}
+
+#foto {
+    position: absolute;
+    width: 6%;
+    height: 11%;
+    left: 60%;
+    top: 3%;
+}
+
+
+#nome1 {
+    position: absolute;
+    top: 6%;
+    left: 36%;
+    font-size: 50px;
+}
+
+#bordinha {
+    border: 1px black solid;
+    width: 39%;
+    left: 30%;
+    top: 16%;
+    position: absolute;
+}
+
+#dados1 {
+    position: absolute;
+    top: 17%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    left: 43%;
+}
+
+#nascimento2 {
+    position: absolute;
+    top: 22%;
+    left: 32%;
+    font-size: 20px;
+}
+
+#escolaridade2 {
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    font-size: 20px;
+}
+
+#sexo2 {
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    font-size: 20px;
+}
+
+#email2 {
+    position: absolute;
+    top: 31%;
+    left: 32%;
+    font-size: 20px;
+}
+
+#telefone2 {
+    position: absolute;
+    top: 34%;
+    left: 32%;
+    font-size: 20px;
+}
+
+#telefone3 {
+    position: absolute;
+    top: 22%;
+    left: 57%;
+    font-size: 20px;
+}
+
+#endereco2 {
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    font-size: 20px;
+}
+
+#estado2 {
+    position: absolute;
+    top: 28%;
+    left: 57%;
+    font-size: 20px;
+}
+
+#cidade2 {
+    position: absolute;
+    top: 31%;
+    left: 57%;
+    font-size: 20px;
+}
+
+#cep2 {
+    position: absolute;
+    top: 34%;
+    left: 57%;
+    font-size: 20px;
+}
+
+#bordinha2 {
+    border: 1px black solid;
+    width: 39%;
+    position: absolute;
+    left: 30%;
+    top: 38%;
+}
+
+#experiencia-profissionais3 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 28px;
+    word-wrap: break-word;
+}
+
+#input-experiencia3 {
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-experiencia4 {
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-experiencia5 {
+    position: absolute;
+    top: 51%;
+    left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-experiencia6 {
+    position: absolute;
+    top: 54%;
+    left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#novo-input {
+    position: absolute;
+}
+
+#cursos2 {
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    font-size: 28px;
+}
+
+#input-cursos3 {
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-cursos4 {
+    position: absolute;
+    top: 48%;
+    left: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-cursos5 {
+    position: absolute;
+    top: 51%;
+    left: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#input-cursos6 {
+    position: absolute;
+    top: 54%;
+    left: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+.inputcursos {
+    position: absolute;
+    top: 90%;
+}
+
+#bordinha3 {
+    border: 1px black solid;
+    width: 39%;
+    position: absolute;
+    top: 60.5%;
+    left: 30%;
+}
+
+#objetivo2 {
+    position: absolute;
+    top: 62%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    left: 46%;
+}
+
+#text {
+    position: absolute;
+    top: 67%;
+    left: 33%;
+    width: 34%;
+    height: 12%;
+    background-color: #4682B4;
+    word-wrap: break-word;
+}
+
+#bordinha4 {
+    border: 1px black solid;
+    width: 39%;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+#formacao-academica2 {
+    position: absolute;
+    top: 81%;
+    left: 42%;
+    font-size: 32px;
+}
+
+#input-formacao3 {
+    position: absolute;
+    top: 87%;
+    left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-formacao4 {
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-formacao5 {
+    position: absolute;
+    top: 93%;
+    left: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imprimir {
+    position: absolute;
+    top: 96%;
+    left: 46.5%;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: black;
+    color: #4682B4;
+    width: 6%;
+    height: 3%;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.novaexperiencias {
+    position: absolute;
+    top: 57%;
+    left: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.novocursos {
+    position: absolute;
+    top: 57%;
+    left: 53%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    #conteudo-dados-pessoais {
+        padding: 10px;
+    }
+}
+
+/* Exemplo de uso de Flexbox para layout responsivo */
+#conteudo-dados-pessoais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
