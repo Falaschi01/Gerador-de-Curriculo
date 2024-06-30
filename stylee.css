@@ -8,16 +8,18 @@
 #container {
     height: 100vh;
     display: flex;
+    background-color: #F0F8FF;
 }
 
 #borda-esquerda {
-    width: 650px;
-    background-color: #4682B4;
+    width: 600px;
+    background-color: #483D8B;
     height: 100vh;
 }
 
 #borda-conteudo {
     width: 100%;
+
 }
 
 #perfil {

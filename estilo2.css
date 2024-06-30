@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    height: 100vh;
+    background-color: #F0F8FF;
+}
+
+/*SEPARÇÃO LADO ESQUERDO*/
+#lateralesquerda {
+    position: absolute;
+    height: 100vh;
+    width: 20%;
+    left: 10%;
+    background-color: #483D8B;
+    border-radius: 10%;
+
+}
+
+/*SEPARAÇÃO CONTEUDO DO MEIO*/
+#meio {
+    position: absolute;
+    left: 30%;
+    height: 100vh;
+    width: 70%;
+}
+
+/*CONTEUDO LADO ESQUERDO*/
+#foto {
+    position: absolute;
+    height: 20%;
+    width: 50%;
+    left: 25%;
+    top: 3%;
+}
+
+#titulopessoais {
+    position: absolute;
+    top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 23%;
+    font-size: 1.5rem;
+}
+
+#nascimento {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 31%;
+    left: 15%;
+}
+
+#iconenascimento {
+    position: absolute;
+    height: 4%;
+    width: 10%;
+    top: 30%;
+    left: 3%;
+}
+
+#escolaridade {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 36%;
+    left: 15%;
+}
+
+#iconeescolaridade {
+    position: absolute;
+    height: 4%;
+    width: 10%;
+    top: 34%;
+    left: 3%;
+}
+
+#sexo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 40%;
+    left: 15%;
+}
+
+#iconesexo {
+    position: absolute;
+    height: 4%;
+    width: 10%;
+    top: 39%;
+    left: 3%;
+}
+
+#email {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 44%;
+    left: 15%;
+}
+
+#iconeemail {
+    position: absolute;
+    top: 43%;
+    height: 4%;
+    width: 10%;
+    left: 3%;
+}
+
+#telefone {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 48%;
+    left: 15%;
+}
+
+#iconetelefone {
+    position: absolute;
+    top: 47%;
+    height: 4%;
+    width: 10%;
+    left: 3%;
+}
+
+#telefonereserva {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 48%;
+    left: 65%;
+}
+
+#iconetelefonereserva {
+    position: absolute;
+    top: 47%;
+    left: 55%;
+    height: 4%;
+    width: 10%;
+}
+
+#endereco {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 52%;
+    left: 15%;
+}
+
+#iconeendereco {
+    position: absolute;
+    top: 51%;
+    height: 4%;
+    left: 3%;
+    width: 10%;
+}
+
+#estado {
+    position: absolute;
+    top: 56.5%;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#iconeestado {
+    position: absolute;
+    top: 55.5%;
+    left: 3%;
+    height: 4%;
+    width: 10%;
+}
+
+#cidade {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 56.5%;
+    left: 60%;
+
+}
+
+#iconecidade {
+    position: absolute;
+    top: 55.5%;
+    left: 50%;
+    height: 4%;
+    width: 10%;
+}
+
+#cep {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 61%;
+    left: 15%;
+}
+
+#iconecep {
+    position: absolute;
+    top: 60%;
+    height: 4%;
+    width: 10%;
+    left: 3%;
+}
+
+/*FORMAÇÃO ACADEMICA*/
+#tituloformacao {
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10%;
+    top: 70%;
+}
+
+#formacao1 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formacao2 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formacao3 {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*CONTEUDO DO MEIO*/
+
+/*OBJETIVOS*/
+#tituloobjetivo {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    left: 40%;
+    top: 8%;
+}
+
+#quebralinhaobjetivo {
+    position: absolute;
+    border: 2px solid transparent;
+    top: 13%;
+    height: 20%;
+    width: 83%;
+    left: 7%;
+}
+
+#objetivo {
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+/*CURSOS E QUALIFICAÇÕES*/
+#titulocursos {
+    position: absolute;
+    top: 46%;
+    left: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+#quebralinhacursos {
+    position: absolute;
+    border: 2px solid transparent;
+    height: 20%;
+    width: 40%;
+    top: 50%;
+    left: 7%;
+}
+
+.curso1,
+.curso2,
+.curso3,
+.curso4,
+.curso5 {
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*EXPERIÊNCIAS PROFISSIONAIS*/
+#tituloexperiencias {
+    position: absolute;
+    top: 46%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 55%;
+    font-size: 1.5rem;
+}
+
+#quebralinhaexperiencias {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    height: 20%;
+    width: 40%;
+    border: 2px solid transparent;
+
+}
+
+.experiencia1,
+.experiencia2,
+.experiencia3,
+.experiencia4,
+.experiencia5 {
+    word-wrap: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BOTÃO DE IMPRIMIR*/
+#imprimir {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    height: 3.5%;
+    width: 13%;
+    color: #483D8B;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}

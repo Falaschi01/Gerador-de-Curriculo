@@ -4,58 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currículo Profissional</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylee.css" />
 
 </head>
 <body>
     <main id="container">
+                <!-- LAYOUT -->
                 <div id="borda-esquerda">        
             </div>
                 <div id="borda-conteudo">
             </div>
-   <section>        
-        <form id="conteudo-dados-pessoais" action="teste.php" method="post" target="_blank" enctype="multipart/form-data"> 
-            <img id="perfil" src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Image.png" alt="foto de perfil"> <!--Imagem-->
+   <section>  
+                <!-- CONTEUDO DOS DADOS PESSOAIS -->      
+        <form id="conteudo-dados-pessoais" action="teste2.php" method="post" target="_blank" enctype="multipart/form-data"> 
+                <!--IMAGEM-->
+            <img id="perfil" src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Image.png" alt="foto de perfil"> 
+                <!--INPUT IMAGEM-->
             <input type="file" name="file" id="adicionar-imagem" accept="image/*">
         
-            <h1 id="dados-pessoais"><u><strong>DADOS PESSOAIS:</strong></u></h1> <!--Dados pessoais-->
-            
-            <label id="nome"> <u><strong>NOME</strong></u></label>   <!--NOME DA PESSOA-->
-                <input id="input-nome" type="text" name="nome" placeholder="Rafael Falaschi">  <!--INPUT DO NOME-->
-       
-            <label id="nascimento"> <u><strong>NASCIMENTO</strong></u></label>   <!--NASCIMENTO DA PESSOA-->
-                <input id="input-nascimento" name="nascimento" type="date" >  <!--INPUT DO NASCIMENTO-->
-               
-            <label id="escolaridade"> <u><strong>ESCOLARIDADE</strong></u></label>   <!--ESTADO CIVIL DA PESSOA-->
-                <input id="input-escolaridade" type="text" name="escolaridade" placeholder="Ensino Medio Completo">  <!--INPUT DO ESTADO CIVIL-->
-               
-            <label id="sexo"><u><strong>SEXO</strong></u></label>    <!--SEXO DA PESSOA-->
-                <input id="input-sexo" type="text" name="sexo" placeholder="Masculino">  <!--INPUT DO SEXO-->
-               
-            <label id="email"><u><strong>E-MAIL</strong></u></label> <!--EMAIL DA PESSOA-->
-                <input id="input-email" type="email" name="email" placeholder="rafaelfalaschi@gmail.com"> <!--INPUT DO EMAIL-->
-                
-            <label id="telefone"><u><strong>TELEFONE</strong></u></label>    <!--TELEFONE DA PESSOA-->
-                <input id="input-telefone" type="tel" name="telefone" placeholder="(44) 90000-0000">  <!--INPUT DO TELEFONE-->
-
-            <label id="telefone2"><u><strong>TELEFONE (2)</strong></u></label>   <!--TELEFONE RESERVA-->
-                <input id="input-telefone2" type="tel" name="telefone2" placeholder="Opcional">  <!--INPUT DO TELEFONE DE RESERVA-->
-
-            <label id="endereco"><u><strong>ENDEREÇO</strong></u></label>    <!--ENDEREÇO DA PESSOA-->
-                <input id="input-endereco" type="text" name="endereco" placeholder="Rua Lapaz, 0000">  <!--INPUT DO ENDEREÇO-->
-
-            <label id="estado"><u><strong>ESTADO</strong></u></label>    <!--ESTADO DA PESSOA-->
-                <input id="input-estado" type="text" name="estado" placeholder="PR">    <!--INPUT DO ESTADO-->
-
-            <label id="cidade"><u><strong>CIDADE</strong></u></label>    <!--CIDADE DA PESSOA-->
-                <input id="input-cidade" type="text" name="cidade" placeholder="Umuarama">    <!--INPUT DA CIDADE-->
-
-            <label id="cep"><u><strong>CEP</strong></u></label>  <!--CEP DA PESSOA-->
-                <input id="input-cep" type="text" name="cep" placeholder="00000-000">   <!--INPUT DO CEP-->
-                <input id="enviar" type="submit" name="enviar" value="enviar">
+            <h1 id="dados-pessoais"><u><strong>DADOS PESSOAIS:</strong></u></h1> 
+                <!--NOME DA PESSOA-->
+            <label id="nome"> <u><strong>NOME</strong></u></label> 
+                <!--INPUT DO NOME-->  
+            <input id="input-nome" type="text" name="nome" placeholder="Rafael Falaschi" required>  <!--INPUT DO NOME-->
+                <!--NASCIMENTO-->
+            <label id="nascimento"> <u><strong>NASCIMENTO</strong></u></label >   
+                <!--INPUT DO NASCIMENTO-->
+            <input id="input-nascimento" name="nascimento" type="date" required>  
+                <!--ESTADO CIVIL-->
+            <label id="escolaridade"> <u><strong>ESCOLARIDADE</strong></u></label>   
+                <!--INPUT DO ESTADO CIVIL-->
+            <input id="input-escolaridade" type="text" name="escolaridade" placeholder="Ensino Medio Completo" required>  
+                <!--SEXO-->
+            <label id="sexo"><u><strong>SEXO</strong></u></label>  
+                <!--INPUT DO SEXO-->  
+            <input id="input-sexo" type="text" name="sexo" placeholder="Masculino" required> 
+                <!--EMAIL-->
+            <label id="email"><u><strong>E-MAIL</strong></u></label> 
+                <!--INPUT DO EMAIL-->
+            <input id="input-email" type="email" name="email" placeholder="rafaelfalaschi@gmail.com" required> 
+                <!--TELEFONE-->
+            <label id="telefone"><u><strong>TELEFONE</strong></u></label>   
+                <!--INPUT DO TELEFONE--> 
+            <input id="input-telefone" type="tel" name="telefone" placeholder="(44) 90000-0000" required>  
+                <!--TELEFONE RESERVA-->
+            <label id="telefone2"><u><strong>TELEFONE (2)</strong></u></label>   
+                <!--INPUT DO TELEFONE DE RESERVA-->
+            <input id="input-telefone2" type="tel" name="telefone2" placeholder="Opcional">  
+                <!--ENDEREÇO-->
+            <label id="endereco"><u><strong>ENDEREÇO</strong></u></label>   
+                <!--INPUT DO ENDEREÇO-->
+            <input id="input-endereco" type="text" name="endereco" placeholder="Rua Lapaz, 0000" required> 
+                <!--ESTADO DA PESSOA-->
+            <label id="estado"><u><strong>ESTADO</strong></u></label> 
+                <!--INPUT DO ESTADO-->   
+            <input id="input-estado" type="text" name="estado" placeholder="PR" required>    
+                <!--CIDADE-->
+            <label id="cidade"><u><strong>CIDADE</strong></u></label>  
+                <!--INPUT DA CIDADE-->  
+            <input id="input-cidade" type="text" name="cidade" placeholder="Umuarama" required>    
+                <!--CEP-->
+            <label id="cep"><u><strong>CEP</strong></u></label>  
+                <!--INPUT DO CEP-->
+            <input id="input-cep" type="text" name="cep" placeholder="00000-000" required> 
       
-          
-        <div id="conteudo-formação-academica">   <!--Conteudo formação academica-->
+                <!--CONTEUDO INFORMAÇÕES ACADEMICAS-->
+        <div id="conteudo-formação-academica">   
             <h2 id="formação-academica"><u><strong>FORMAÇÃO ACADÊMICA:</strong></u></h2> 
             
         <div id="inputs-formação-academica"> 
@@ -64,8 +78,8 @@
             <input id="input-formacao3" name="input-formacao3" placeholder="Digite Aqui" maxlenght="35" >
         </div>  
      
-            
-        <div id="conteudo-principal-meio">  <!--Conteudo principal-->
+                <!--CONTEUDO DO MEIO-->
+        <div id="conteudo-principal-meio"> 
             <h1 id="titulo"><u>Currículo Profissional</u></h1>                  
             
             <h2 id="objetivo" ><u>OBJETIVO</u></h2>   
@@ -73,14 +87,16 @@
 
             <h2 id="cursos"><strong><u>CURSOS E QUALIFICAÇÕES</u></strong></u></h2> 
         </div>  
-        <div id="inputs-cursoss">  <!--Cursos-->
+                <!--CURSOS-->
+        <div id="inputs-cursoss">  
                 <input id="input-cursos1" name="input-cursos1" placeholder="Digite Aqui" maxlenght="40">
                 <input id="input-cursos2" name="input-cursos2" placeholder="Digite Aqui" maxlenght="40">
                 <input id="input-cursos3" name="input-cursos3" placeholder="Digite Aqui" maxlenght="40">
                 <input id="input-cursos4" name="input-cursos4" placeholder="Digite Aqui" maxlenght="40">
                 <button id="adicionarCampo2" name="adicionarCampo2" type="button">Adicionar Informações</button>
         </div>    
-        <div id="inputs-lista-experiencia">   <!--Experiencias-->
+                <!--EXPERIENCIAS-->
+        <div id="inputs-lista-experiencia">   
                 <h2 id="experiencia-profissionais"><u><strong>EXPERIÊNCIA PROFISSIONAIS</strong></u></h2>
                 <input id="input-experiencia1" name="input-experiencia1" placeholder="Digite Aqui" maxlenght="40">
                 <input id="input-experiencia2" name="input-experiencia2" placeholder="Digite Aqui" maxlenght="40">
@@ -88,15 +104,13 @@
                 <input id="input-experiencia4" name="input-experiencia4" placeholder="Digite Aqui" maxlenght="40">
                 <button type="button" name="adicionarCampo" id="adicionarCampo">Adicionar Informações</button>
         </div>  
-        <div>        
-                <input id="enviar" type="submit" name="enviar" value="enviar"> <!--Botão de enviar-->
+        <div> 
+                <!--BOTÃO ENVIAR-->
+                <input id="enviar" type="submit" name="enviar" value="enviar">
         </div>                             
-    </form>
+        </form>
     </section>
-    </main>
-
-
+</main>
 </body>
     <script src="scripts.js" defer></script>
-
 </html>
